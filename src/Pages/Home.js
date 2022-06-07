@@ -10,7 +10,7 @@ const Home = () => {
     <div>
         <input type="text" placeholder="Enter a Movie" />
         <button type="submit" onClick={handleClick}>Submit</button>
-        <pyscript src=""></pyscript>
+        <py-script>print("Hello World")</py-script>
     </div>
   )
 }
